@@ -1,2 +1,3 @@
 # local-sv
-install
+install docker
+download cromwell
