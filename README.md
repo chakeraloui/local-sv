@@ -6,9 +6,9 @@ Prereqs:
 
 make sure you have java v1.8 or higher
 
-#install Docker on ubuntu 22.04
+## install Docker on ubuntu 22.04
 
-##Setup the repository
+## Setup the repository
 
 ```sudo apt-get update
 sudo apt-get install apt-transport-https ca-certificates curl gnupg lsb-release
@@ -19,14 +19,14 @@ echo \
   $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
 ```
 
-  ##Install Docker Engine
+  ## Install Docker Engine
 
 ```  
 sudo apt-get update
 sudo apt-get install docker-ce docker-ce-cli containerd.io
 ```
 
-#Executing the Docker Command Without Sudo
+## Executing the Docker Command Without Sudo
 
 By default, the docker command can only be run the root user or by a user in the docker group, which is automatically created during Docker’s installation process. If you want to avoid typing sudo whenever you run the docker command, add your username to the docker group:
 
